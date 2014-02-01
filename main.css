@@ -1,0 +1,279 @@
+
+/* LINK STYLING */
+
+a:link {
+
+	color: #777;
+	text-decoration: none;
+}
+
+a:visited {
+
+	/*color: #609; */
+	color: #777;
+}
+
+
+a:hover {
+
+	text-decoration: underline;
+}
+
+
+
+/* BODY DIVS */
+
+body {
+
+	background-color: white;
+	font-family: Arial, sans-serif;
+	font-size: small;
+}
+
+.wrapper {
+
+	min-width: 25%;
+}
+
+
+/*HEADER WITH SIGN IN DIVS */
+
+#head {
+
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#righthead {
+
+	position: fixed;
+	top: 15px;
+	right: 0;
+}
+
+#you {
+
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+ #gmail {
+
+ 	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+ }
+
+#images {
+
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#apps {
+
+	float: left;	
+	margin-right: 10px;
+}
+
+#signinbutton  {
+	
+	float: left;
+	margin-right: 40px;
+	font-weight: bold;
+	border: 1px;
+	border-radius: 2px;
+	height: 30px;
+	width: 71px;
+	background-color: #4285F4;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+#white {
+
+	color: white;
+	text-decoration: none;
+}
+
+#signinbutton a {
+
+	text-decoration: none;
+}
+
+/* CENTER DIVS - LOGO, SEARCH BOX, SEARCH BUTTONS */
+
+#logo {
+	
+	position: relative;
+	top: 200px;
+	text-align: center;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+#google {
+
+	width: 15em;
+	height: auto; 
+	max-width: 25%;
+}
+
+#searchbox {
+
+	position: relative; 
+	top: 220px;
+	text-align: center;
+	border: 1px solid #E4E4E4;
+	width: 550px;
+	height: 25px;
+	margin: 0 auto;
+}
+
+#mic {
+
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+
+#searchbuttons {
+
+	position: relative;
+	top: 240px;
+	text-align: center;
+
+}
+
+
+.button {
+
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	background-color: #EBEBEB;
+	border-radius: 1px;
+	border: 1px solid #D9D9D9;
+	text-align: center;
+	height: 1.4em;
+	padding: 2px 6px;
+}
+
+#googlebutton {
+
+	display: inline-block;
+	margin: .5em;
+	height: 20px;
+	width: 100px;
+	top: 330px;
+	left: 40%; 
+	line-height: 20px;
+}
+
+#luckybutton {
+
+	display: inline-block;
+	margin: .5em;
+	height: 20px;
+	width: 120px;
+	top: 330px;
+	right: 40%; 
+	line-height: 20px;
+}
+
+
+
+/*  FOOTER DIV WITH ABOUT LINKS AND PRIVACY LINKS */
+
+
+
+
+
+
+#footer {
+
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #EBEBEB;
+	text-align: center;
+	border-top: 1px solid #D9D9D9;
+}
+
+#leftfoot {
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	line-height: 40px;
+}
+
+#advertising {
+
+	float: left;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	margin-left: 40px;
+}
+
+#business {
+
+	float: left;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	margin-left: 40px;
+
+}
+
+#about {
+
+	float: left;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	margin-left: 40px;
+
+}
+
+#rightfoot {
+
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	line-height: 40px;
+}
+
+#privacy {
+
+	float: left;
+	bottom: 0;
+	right: 0;
+	text-align: left;
+	margin-right: 40px;
+}
+
+#red {
+
+	color: #dd4b39;
+}
+
+#settings {
+
+	float: left;
+	bottom: 0;
+	right: 0;
+	text-align: left;
+	margin-right: 40px;
+
+}
+
+
+
